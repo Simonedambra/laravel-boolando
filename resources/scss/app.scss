@@ -1,0 +1,169 @@
+@import "~bootstrap/scss/bootstrap";
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* classi base */
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px 0px;
+  height: 1250px;
+  width: 1200px;
+
+}
+
+
+
+/* inizio header */
+header {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+  height: 50px;
+  z-index: 1;
+  .container-fluid{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 145, 1);
+    height: 4.375rem;
+  }
+  .col-30{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100%/4);
+    ol{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 70%;
+      height: 20px;
+      color: white;
+      li{
+      list-style: none;
+      margin: 0px 10px;
+      }
+  };
+    
+    
+  }
+  .col-40{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100%/4 * 2);
+  }
+}
+
+
+
+
+/* fine header */
+
+
+/* inizio main */
+
+/* sconti */
+.labels {
+  position: absolute;
+  bottom: 90px;
+  left: 0;
+
+}
+
+.sales1 {
+  display: inline-block;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  bottom: 90px;
+
+}
+
+.sales {
+  display: inline-block;
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+
+}
+
+.sales2 {
+  display: inline-block;
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+
+
+}
+
+.bg-red {
+  color: red;
+}
+
+.bar {
+  text-decoration: line-through;
+  margin: 0px 5px;
+  color: rgb(34, 33, 33);
+}
+
+/* fine sconti */
+/* heart */
+.heart {
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  background-color: white;
+  padding: 10px;
+
+}
+
+.heart:hover {
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  background-color: white;
+  padding: 10px;
+  color: red;
+
+}
+
+/* fine heart */
+
+/* inizio classi img */
+
+.image {
+  background-repeat: no-repeat;
+  height: 95%;
+  width: 100%;
+}
+
+/* fine classi img */
+
+ .product {
+  position: relative;
+     margin: 10px 0px;
+     width: calc(100%/3 - 6.25rem);
+     height: 37.5rem;
+     padding: 0px 0px 60px 0px;
+  
+   }
+   #div-card{
+    position: absolute;
+    width: 100vw;
+    top: 100px;
+
+   }
+  
